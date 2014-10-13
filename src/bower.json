@@ -1,0 +1,28 @@
+{
+  "name": "myplate",
+  "version": "1.0.0",
+  "homepage": "https://github.com/igorikeda/myplate",
+  "authors": [
+    "Igor Ikeda <igorikeda@gmail.com>"
+  ],
+  "description": "Initial structure for my projects",
+  "main": "../assets/javascripts/main.js",
+  "keywords": [
+    "myplate",
+    "html",
+    "css",
+    "bower"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.15"
+  }
+}
