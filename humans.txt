@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Your title:		Your name.
+    Site:			http://name.com
+    Email:			name [at] gmail.com
+    Twitter:		@username.
+    Location:		City, Country.
+
+# THANKS
+
+    Names (& URL):		Paul Irish & contributors (http://html5boilerplate.com/)
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
