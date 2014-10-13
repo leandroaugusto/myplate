@@ -14,13 +14,13 @@
 
 ##### IOS WEB APP
 
-* '<meta name="apple-mobile-web-app-status-bar-style" content="black">'
-* '<meta name="apple-mobile-web-app-capable" content="yes">'
+* '''<meta name="apple-mobile-web-app-status-bar-style" content="black">'''
+* '''<meta name="apple-mobile-web-app-capable" content="yes">'''
 
 ##### REDIRECIONAMENTO
 
-* META  '<meta http-equiv="refresh" content="300; url=http://www.igorikeda.com/">'
-* JS 	'<script type="text/javascript">location.href="home/";</script>'
+* META  ```<meta http-equiv="refresh" content="300; url=http://www.igorikeda.com/">```
+* JS 	```<script type="text/javascript">location.href="home/";</script>```
 
 
 ### DEV
