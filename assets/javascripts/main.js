@@ -1,48 +1,29 @@
-/*
-	Author: @author
-	Project: projeto
-*/
-
+/* ==========================================================================
+ * PROJETO
+ * Created: 2014/11/09
+ * Version: 1.0
+ * Author:  Designer: Nome - nome@gmail.com - www.nome.com
+ * 			Front-end: Nome - nome@gmail.com - www.nome.com
+ * 			Back-end: Nome - nome@gmail.com - www.nome.com
+ * Notes:
+ * ========================================================================== */
 
 (function($) {
 
-	var nomeAqui = function() {
+	//TEST MODERNIZR
+	if (Modernizr.geolocation) {
+		console.log("Aceita");
+	} else {
+		console.log("Não Aceita");
+	}
+
+	//MYPLATE
+	var myPlate = function() {
 		console.log("exemplo");
 	};
 
 	init = (function() {
-		nomeAqui();
+		myPlate();
 	}());
 
-
 })(window.jQuery);
-
-
-// test modernizr
-// if (Modernizr.geolocation) {
-//        alert("Aceita")
-// } else {
-//        alert("Não Aceita")
-// }
-
-// $(document).ready(function(){});
-// $(window).load(function(){});
-// $(window).resize(function(){});
-
-
-// var NOMEDOPROJETO = NOMEDOPROJETO || {};
-// NOMEDOPROJETO.history = NOMEDOPROJETO.history || {};
-// NOMEDOPROJETO.history.init = function() {
-// }
-
-// NOMEDOPROJETO.products = NOMEDOPROJETO.products || {};
-// NOMEDOPROJETO.products.init = function() {
-// }
-
-// //INIT
-// NOMEDOPROJETO.init = function() {
-// 	NOMEDOPROJETO.products.init();
-// 	NOMEDOPROJETO.history.init();
-// }
-
-// $(window).ready(NOMEDOPROJETO.init);
