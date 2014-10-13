@@ -1,0 +1,57 @@
+/* ==========================================================================
+ *
+ * Basic »
+ *
+ * ========================================================================== */
+
+/* ==========================================================================
+   =html =body
+   ========================================================================== */
+
+html {
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	background: #fff;
+}
+
+/* ==========================================================================
+   =link
+   ========================================================================== */
+
+a,
+a:visited {
+	color: $LINK-COLOR;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: $LINK-HOVER-COLOR;
+}
+
+a:active {
+	color: $LINK-ACTIVE-COLOR;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+/* ==========================================================================
+   =selection
+   ========================================================================== */
+
+::-moz-selection {
+	background: $SELECTION-BACKGROUND;
+	color: $SELECTION-COLOR;
+	text-shadow: none;
+}
+
+::selection {
+	background: $SELECTION-BACKGROUND;
+	color: $SELECTION-COLOR;
+	text-shadow: none;
+}
