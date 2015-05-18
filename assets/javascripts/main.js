@@ -9,6 +9,9 @@
  * ========================================================================== */
 
 (function($) {
+    'use strict'
+    var sayHi = 'oi'
+    console.log(sayHi) // oi
 
 	//TEST MODERNIZR
 	if (Modernizr.geolocation) {
@@ -26,4 +29,10 @@
 		myPlate();
 	}());
 
+
+
+
+
 })(window.jQuery);
+
+console.log(sayHi) // ReferenceError: sayHi is not defined
