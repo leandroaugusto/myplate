@@ -6,24 +6,17 @@ Base para os projetos baseado no [HTML5 Boilerplate](http://html5boilerplate.com
 
 ==============
 
-#### DEV
 
-http://
+# CSScomb
 
-#### HML
+## 1. Install
 
-http://
+```bash
+npm install csscomb -g
+```
 
-* * *
+## 2. Use
 
-##### FACEBOOK
-
-https://
-
-##### TWITTER
-
-https://
-
-##### YOUTUBE
-
-http://
+```bash
+csscomb app/styles
+```
