@@ -45,13 +45,22 @@ publish
 build/buildinfo.properties
 build/config/buildinfo.properties
 
-#Bower
-assets/components
-
-#Grunt
+# npm
 node_modules
+logs
+*.log
+npm-debug.log*
+
+# Gulp
 dist
-src/.sass-cache/*
-src/node_modules/*
-src/tmp/*
-build/*
+.tmp
+
+#Bower
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+test/bower_components
+
+#Project
+_old

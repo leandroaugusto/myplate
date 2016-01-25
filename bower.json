@@ -1,0 +1,19 @@
+{
+  "name": "myplate",
+  "version": "1.0.0",
+  "homepage": "https://github.com/igorikeda/myplate",
+  "description": "Initial structure for my projects",
+  "private": true,
+  "authors": [
+    "Igor Ikeda <igorikeda@gmail.com>"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.1",
+    "requirejs": "~2.1.15"
+  },
+  "devDependencies": {
+    "chai": "~3.4.2",
+    "mocha": "~2.3.4"
+  }
+}
